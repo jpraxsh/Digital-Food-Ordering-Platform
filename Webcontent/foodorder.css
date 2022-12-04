@@ -1,0 +1,205 @@
+@CHARSET "ISO-8859-1";
+* {box-sizing: border-box;
+   margin:0;
+  padding:0;
+}
+body{
+	background-image:url(home_images/food_order_bg.jpg);
+	background-size:cover;
+	background-repeat:none;
+}
+
+html{
+  font-family:'Source Sans Pro', sans-serif; 
+  scroll-behavior: smooth;
+  color: #515151;
+}
+header ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #333;
+  position: sticky;
+  top:0;
+  height: 60px;
+  z-index: 1;
+}
+header li{
+  float: right;
+}
+header li a{
+  display: block;
+  color:white;
+  text-align:center;
+  padding: 25px 25px 25px 25px;
+  text-align: underline;
+  height: auto;
+  justify-content: center;
+  font-variant: small-caps;
+  transition: 1 sec;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+
+}
+header li a:hover{
+  color:#c59d5f;
+
+}
+header .active{
+  background-color: burlywood;
+}
+/*header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+}*/
+
+
+.one{
+  position: relative;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+  height:auto;
+  top:40px;
+  object-fit: contain;
+  left:0;
+}
+
+/* Style the buttons inside the tab except active */
+.tab button {
+  display: block;
+  color: black;
+  padding: 20px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 17px;
+  background-color: rgba(84, 228, 228, 0.911);
+  height: 71.5px;
+}
+.tab input{                  /*search bar*/
+  display: block;
+  background-color:inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ff8000;
+  color:cornsilk;
+  font-weight:bolder;
+}/*
+.tab button.active img:hover{
+  height:30px;                                 
+  width:30px;
+}*/
+
+
+
+/* Style the tab content */
+.tabcontent {
+  float: right;
+  padding: 0px 12px;
+  border: 1px solid rgba(10, 10, 10, 0.404);
+  width: 70%;
+  /*border-left: none;*/
+  height: auto;
+  position: relative;
+  margin:20px;
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  grid-template-rows: auto;
+  background:transparent;
+}
+/*:not(.tabcontent)
+{
+  background-color:skyblue;
+}*/
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-variant: small-caps;
+  }
+  #discription{
+  color: rgb(255, 145, 0);
+} 
+  /* Style the navigation menu inside the left column */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: black;
+  }
+
+  .prod{
+    max-width: 35%;
+    padding:7px 18px;
+    border-radius: 5px;
+    position: relative;
+    float: left;
+    object-fit: contain;
+    margin: 15px;
+    border: 2px solid slategray;
+    background-color:rgb(242,246,247);
+    font-weight:350;
+  }
+  .prod .v_n{
+  font-size:large;
+  }
+  .prod img{
+    object-fit:contain;
+    position: relative;
+    margin: auto;
+    aspect-ratio: 1-1;
+    border:21x solid black;
+  }
+  
+  .prod p{
+      color: crimson;
+
+  }
+  .prod:hover{
+  box-shadow: 1px 5px 8px 0 rgba(65, 26, 26, 0.2), 1px 6px 20px 0 rgba(61, 38, 38, 0.19);
+  /*border: 4px solid slategray;*/
+  border-radius: 7px;
+  }
+.jamesbond{
+	float:right;
+}
+.v_n img{float:right;}

@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(home_images/hero.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box
+{
+     width:380px;
+	height: 80vh; 
+	position:relative;
+	margin:8% auto;
+	background:rgba(246, 252, 251, 0.938);                    /* change */
+	padding:10px;
+    /*overflow-y:hidden;*/
+	transform: translateY(-2%);
+	border: 2px solid black;
+	border-radius:30px;
+	opacity: .9;
+	transition: 1s;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+a{	margin-left:30%;
+	color: black;
+	font-size:16px;
+}
+a:hover{
+	color:rgba(28, 104, 114, 0.432);
+	transition: color 2s;
+}
+.toggle-btn
+{
+	padding:10px 10px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+	width: 220px;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background: cyan;
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 100%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display:inline-block;
+	margin: auto;
+	background: #3df5e4;
+	color:black;
+	border: 0;
+	border-radius: 30px;
+	text-decoration: none;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+.js-hidden{
+	display: none;
+}
+span{
+	color: crimson;
+}
